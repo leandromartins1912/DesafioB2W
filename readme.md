@@ -29,6 +29,7 @@ Cria um novo planeta no sistema
 Recupera a lista de planetas do sistema
   * Parâmetros (Query String)  
   **string**: name - Filtra os planetas por nome (opcional)
+  http://localhost:8080/planets/?name=namePlanet
      
 * **GET:** http://localhost:8080/planets/{id}  
 Recupera um planeta pelo seu ID
